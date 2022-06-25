@@ -1,0 +1,70 @@
+.contacts {
+    min-height: 340px;
+    background-color: rgba(242, 143, 255, 0.564);
+    &__wrapper {
+        display: flex;
+		justify-content: space-between;
+    }
+    &__firstpart {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+		width: 500px;
+        height: 100px;
+    }
+    &__logo {
+        width: 300px;
+        height: 100px;
+        img {
+            width: 150px;
+        }
+    }
+    &__descr {
+        font-weight: 700;
+    }
+    &__secondpart {
+        padding-top: 40px;
+        width: 220px;
+    }
+    &__title {
+        width: 220px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__social {
+        padding-top: 20px;
+        width: 220px;
+        display: flex;
+        justify-content: center;
+    }
+    &__phone {
+       padding-top: 20px;
+       width: 220px;
+       display: flex;
+       justify-content: center; 
+    }
+    &__divider {
+        margin-top: 30px;
+        span { 
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: $main-color;
+        }
+    }
+    &__footer {
+        padding-top: 10px;
+        color: #000000;
+        text-align: center;
+    }
+    &__designed {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__designedinfo {
+        color: #000000;
+        padding-right: 5px;
+    }
+}

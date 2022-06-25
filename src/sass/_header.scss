@@ -1,0 +1,79 @@
+.header {
+    min-height: 800px;
+    background: url(../img/main_bg.jpg) center center/cover no-repeat;
+    &__main {
+        min-height: 130px;
+        display: flex;
+        justify-content: space-between;
+        &-logo {
+            width: 250px;
+            height: 100px;
+            padding-top: 15px;
+        }
+        &-png {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        &-menu {
+            width: 500px;
+            padding-top: 35px;
+            &-link {
+                display: flex;
+	            justify-content: space-between;
+	            margin: 0;
+	            list-style-type: none;
+                &_info {
+                    text-decoration-line: none;
+                    color: black;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    &__divider {
+        span {
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: $main-color;
+        }
+    }
+    &__promo {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        &-txt {
+            margin-top: 25px;
+            text-align: center;
+            font-weight: 700;
+            color:white;
+        }
+        &-text {
+            margin-top: 80px;
+            text-shadow: 1px 1px 1px #000;
+        }
+        &-1text {
+            font-size: 60px;
+        }
+        &-2text {
+            font-size: 45px;
+        }
+        &-3text {
+            font-size: 30px;
+            margin-bottom: 80px;
+        }
+        &-social {
+            margin: 0 auto;
+        }
+        &-icon {
+            &:hover {
+                svg path {
+                    fill: $main-color;
+                }
+            }	    
+        }
+    }
+}
