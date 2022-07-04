@@ -9,18 +9,15 @@
         padding-top: 40px;
         display: flex;
         flex-direction: column;
-		width: 500px;
-        height: 100px;
     }
     &__logo {
-        width: 300px;
-        height: 100px;
         img {
             width: 150px;
         }
     }
     &__descr {
         font-weight: 700;
+        font-style: italic;
     }
     &__secondpart {
         padding-top: 40px;
