@@ -19,10 +19,18 @@
 
                     <div class="header__main-menu">
                         <ul class="header__main-menu-link">
-                            <button class="custom-btn btn-16">Услуги!</button>
-                            <button class="custom-btn btn-16">Отзывы</button>
-                            <button class="custom-btn btn-16">Контакты</button>
-                            <button class="custom-btn btn-16">О нас</button>
+                            <form action="#service">
+                                <button class="custom-btn btn-16">  Услуги!</button>
+                            </form>
+                            <form action="#feedback">
+                                <button class="custom-btn btn-16">Отзывы</button>
+                            </form>
+                            <form action="#contact">
+                                <button class="custom-btn btn-16">Контакты</button>
+                            </form>
+                            <form action="#about">
+                                <button class="custom-btn btn-16">О нас</button>
+                            </form>
                         </ul>
                     </div>
 
@@ -94,7 +102,7 @@
     </section>
 
     <section>
-        <div class="service">
+        <div class="service" id="service">
             <div class="container">
                 <div class="service__header">
                     Наши услуги
